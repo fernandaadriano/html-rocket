@@ -1,0 +1,65 @@
+<!--tabela básica-->
+
+<table>
+    <thead>
+        <tr>
+            <th>Nome</th>
+            <th>Idade</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Fernanda</td>
+            <td>15</td>
+        </tr>
+        <tr>
+            <td>Laura</td>
+            <td>11</td>
+        </tr>
+            <td>Manuela</td>
+            <td>9</td> 
+        </tr>      
+    </tbody>
+</table>
+
+<!--tabela complexa-->
+
+<table>
+
+    <caption>Produzidos e Vendidos por Loja</caption>
+    <colgroup>
+        <col>
+        <col span="2" style="background-color: blueviolet;">
+        <col span="2" style="background-color: crimson;">
+    </colgroup>
+    <thead>
+        <tr>
+            <th rowspan="2"></th>
+            <th colspan="2" scope="colgroup">CosmicMind</th>
+            <th colspan="2" scope="colgroup">Abaangui</th>
+        </tr>
+        <tr>
+            <th scope="col">Produzidos</th>
+            <th scope="col">Vendidos</th>
+            <th scope="col">Produzidos</th>
+            <th scope="col">Vendidos</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        <tr>
+            <th scope="row">Almofadas</th>
+            <td>50</td>
+            <td>30</td>
+            <td>20</td>
+            <td>20</td>
+        </tr>
+        <tr>
+            <th scope="row">Velas</th>
+            <td>10</td>
+            <td>10</td>
+            <td>30</td>
+            <td>25</td>
+        </tr>
+    </tbody>
+</table>
